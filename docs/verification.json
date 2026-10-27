@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-27",
+  "java": {
+    "tests": 13,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "vue": {
+    "tests": 5,
+    "failures": 0,
+    "skipped": 0
+  },
+  "chromium": {
+    "journeys": 5,
+    "failed": 0
+  },
+  "axe": "WCAG2 A/AA tagged rules; 3 workspace tabs; zero violations",
+  "npmAudit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "assets": [
+    {
+      "file": "index-Dej9KyH6.css",
+      "bytes": 20522,
+      "gzipBytes": 5177
+    },
+    {
+      "file": "index-D_MnkMdT.js",
+      "bytes": 114928,
+      "gzipBytes": 43593
+    }
+  ],
+  "fileSmoke": "PASS file restart equality; atomic restore; append restore; concurrent 200/409; real CSRF; list p95=22.7ms (31 decisions / 30 requests)\nPASS packaged authenticated runtime: anonymous/wrong 401; owner 200",
+  "limitations": [
+    "No real user study",
+    "No public HTTPS deployment",
+    "No remote CI run",
+    "No fresh-machine restore validation",
+    "No complete container or Maven CVE database scan"
+  ],
+  "deployment": "Final source Docker image; preserved volume exact record; malformed 400; missing 404; archive/delete; exact final Vue asset; temporary stack and volume removed.",
+  "development": "Actual Vite and Java startup, same-origin proxy, shared root data directory verified."
+}
